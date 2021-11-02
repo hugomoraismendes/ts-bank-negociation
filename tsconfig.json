@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        "noEmitOnError": true, //enquanto houver um erro no TS não será compilado
+        "noImplicitAny": true, //as variaveis não podem aceitar qualquer valor
+        "removeComments": true //remove todos os comentarios
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
